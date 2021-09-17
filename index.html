@@ -18,6 +18,17 @@
 video{
     width: 100%;
 }
+        .container{
+    display:block;
+    height: 6000px;
+    position:relative;
+}
+#vid{
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+}
     </style>
 </head>
 <body>
@@ -29,7 +40,9 @@ video{
             <h1>HELLO THIS IS PREVIOUS TEXT. <br> NICE TO MEET YOU.</h1>
         </div>
     </div>
+     <div class="vid-container">
     <video id="vid" playsinline autoplay muted src="Test_Donga.mp4"></video>
+    </div>
     <div class="previous">
         <div class="img">
             <img src="../content/house.png" alt="">
