@@ -56,5 +56,9 @@ video{
     var vid = document.querySelector("#vid");
 
     vid.pause();
+    
+    setInterval(function(){
+    vid.currentTime = (window.pageYOffset-1000)/400;
+}, 40);
 </script>
 </html>
