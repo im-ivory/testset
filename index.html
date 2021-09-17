@@ -31,6 +31,20 @@ video{
       height:100vh;
   object-fit: cover;
 }
+        section{  
+    display: block;
+    width: 140px;
+    height: 1000px;
+   margin-left: 40px;
+}
+section > h1{
+    background-color: rgb(240, 248, 255);
+    padding: 30px;
+}
+.text-container{
+    position: sticky;
+    top: 0;
+}
     </style>
 </head>
 <body>
@@ -44,6 +58,13 @@ video{
     </div>
      <div class="vid-container">
     <video id="vid" playsinline autoplay muted src="Test_Donga.mp4"></video>
+                 <div class="text-container">
+            <section class="01"><h1>text</h1></section>
+            <section class="02"><h1>text</h1></section>
+            <section class="03"><h1>text</h1></section>
+            <section class="04"><h1>text</h1></section>
+            <section class="05"><h1>text</h1></section>
+        </div>
     </div>
     <div class="previous">
         <div class="img">
